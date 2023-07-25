@@ -4,7 +4,7 @@ library(readxl)
 library(tidyverse)
 library(janitor)
 
-
+# Created function to download publically available AE data from website
 AE_data <- function() {
   
   if(!dir.exists("data")){dir.create("data")}
