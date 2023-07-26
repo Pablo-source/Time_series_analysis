@@ -22,6 +22,8 @@ AE_data <- function() {
   
 }
 
+AE_data() 
+
 AE_tabs <- excel_sheets(here("data","AE_England_data.xls"))
 AE_data<- read_excel(
   here("data", "AE_England_data.xls"), 
