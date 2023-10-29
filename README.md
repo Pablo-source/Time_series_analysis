@@ -1,20 +1,19 @@
 # Time_series_analysis
-Time series analysis using git and github based on publically available NHS data
 
-This is a new project to practise working with a local git repo and also with a new GitHub repository, so I can use the terminal to commit all changes of the scripts I am tracking 
+This is a new project to practise different packages used for Time Series Analysis.
 
-Currently working from RStudio using the Terminal tab available to commit all the scripts changes to both git and GitHub
+The aim is to learn Time series analysis in a Tidy way, comparing several models at once. 
 
-<img width="850" alt="01 Using git and github" src="https://github.com/Pablo-source/Time_series_analysis/assets/76554081/b1c8f0dd-c660-4a31-836a-1982c125d888">
+For this reason I will start exploring TSStudio: <https://github.com/RamiKrispin/TSstudio>
 
-Adding new features to the script
+This package allows us to compare multiple Time Series model side by side 
 
-![02 Git add include call to a function](https://github.com/Pablo-source/Time_series_analysis/assets/76554081/8c88c09b-d9bc-4a12-a875-3b3026a967e2)
+## Data used for this Time Series Analysis. 
 
-Ensure content in local repo and GitHub matches before my next commit
+I will be using two main data sets 
 
-![03 Git Pull example](https://github.com/Pablo-source/Time_series_analysis/assets/76554081/7e266147-8928-4a97-98e2-8b25a58f6c34)
+ONS: CPIH Annual Rate 00: All Items 2015=100 
+Consumer price inflation time series (MM23) <https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23>
 
-Final changes updatead to GitHub after committing then on my git local repo 
-
-![04 Git push to Github changes on local git repo](https://github.com/Pablo-source/Time_series_analysis/assets/76554081/2e2c1fb4-6a29-48a6-a31d-96be0f16ff61)
+ONS: UK House Price Index. The average UK house price
+Office for National Statistics (ONS), released 18 October 2023, ONS website, statistical bulletin, UK House Price Index: August 2023: <https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/august2023>
